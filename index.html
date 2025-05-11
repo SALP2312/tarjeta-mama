@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#ff69b4">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Feliz Día de las Madres</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="envelope-container">
+        <div class="envelope" id="envelope">
+            <div class="envelope-flap"></div>
+            <div class="envelope-content">
+                <div class="stamp">❤️</div>
+                <div class="address">
+                    <p>Para la mejor mamá del mundo</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card-container" id="cardContainer">
+            <div class="card">
+                <div class="photo-container">
+                    <div class="photo-frame" id="photoFrame">
+                        <img id="previewImage" src="imagen.jpg" alt="Foto de mamá">
+                        <div class="upload-overlay">
+                            <label for="photoUpload" class="upload-btn">Toca para agregar una foto</label>
+                            <input type="file" id="photoUpload" accept="image/*" capture="environment" hidden>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="message-container">
+                    <h1 class="title">¡Feliz Día de las Madres!</h1>
+                    <div class="heart"></div>
+                    <p class="message">
+                        Mi querida mamá,<br>
+                        En este día tan especial quiero agradecerte por ser mi guía, 
+                        mi apoyo y mi mejor amiga. Gracias por tu amor incondicional, 
+                        por tus abrazos que lo curan todo y por tu sonrisa que ilumina 
+                        mis días. Eres la mejor madre del mundo y te quiero con todo mi corazón.
+                    </p>
+                    <div class="flowers">
+                        <div class="flower flower1">🌸</div>
+                        <div class="flower flower2">🌺</div>
+                        <div class="flower flower3">🌹</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
